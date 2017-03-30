@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <!-- Styles -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="styles/main.css" rel="stylesheet" media="screen, print" type="text/css">
+    <script src="lib/modernizr-2.6.2.js"></script>
+<head>
+<title>Google Analytics Usage</title>
+</head>
+
+<body>
+<div id="container" style="left: 0px;">
+        <section id="content">
+			<div id="preamble" class="home">
+        		<div class="preamble">
+				<!-- Define the overall heading for the webpage -->
+					<h1>  Google Analytics Usage</h1>
+                        <h2>  Tracking Script</h2>
+                        <img src="images/ga.png" style="width: 70%" />
+                        <br />
+
+
+
+				</div>
+			</div>
+
+
+
+
+</div><!-- container -->
+<div id="no-script">
+        <div>
+            <p>
+                This website is fully responsive and requires Javascript.<br>
+                Please <a href="http://enable-javascript.com/">enable javascript</a> to use this site without issue.</p>
+        </div>
+    </div><!-- no-script -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96562564-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+    
+    <script src="ajax/jquery-1.11.0.min.js"></script>
+    <script src="scripts/pyaari-main.1.0.js"></script>
+    <script src="scripts/pyaari-menu.1.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            PfdMenu._ctor();
+        });
+    </script>
+    
+
+    <script>
+        $(document).ready(function(){
+           ReadMore.init();
+        })
+    </script>
+</body>
+</html>
