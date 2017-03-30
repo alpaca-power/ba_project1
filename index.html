@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <!-- Styles -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="styles/main.css" rel="stylesheet" media="screen, print" type="text/css">
+    <script src="lib/modernizr-2.6.2.js"></script>
+<head>
+<title>Dashboard</title>
+</head>
+
+<body>
+<div id="container" style="left: 0px;">
+        <section id="content">
+			<div id="preamble" class="home">
+        		<div class="preamble">
+				<!-- Define the overall heading for the webpage -->
+					<h1>Dashboard of Project Results</h1>
+				</div>
+			</div>
+	<div id="our-work">
+   	 <ul>
+		<li><a href="Linear Regression-results.html"><img src="images/linear.png" style="width:95%;height:95%;" alt="Linear Regression"><div class="overlay"><summary><h2>Linear Regression</h2><h3>Results of our linear regression analysis</h3></summary></div></a></li>
+
+		<li><a href="Correlation Analysis-results.html"><img src="images/Correlation.png" style="width:95%;height:95%;" alt="Correlation Analysis"><div class="overlay"><summary><h2>Correlation Analysis</h2><h3>Results of our correlation analysis</h3></summary></div></a></li>
+
+		<li><a href="Rapid Predictive Modeler-results.html"><img src="images/rapidpm.png" style="width:95%;height:95%;" alt="Rapid Predictive Modeler"><div class="overlay"><summary><h2>Rapid Predictive Modeler</h2><h3>Results of our rapid predictive modeler</h3></summary></div></a></li>
+
+	</ul>
+	</div><!-- our-work -->
+</div><!-- container -->
+<div id="no-script">
+        <div>
+            <p>
+                This website is fully responsive and requires Javascript.<br>
+                Please <a href="http://enable-javascript.com/">enable javascript</a> to use this site without issue.</p>
+        </div>
+    </div><!-- no-script -->
+    
+    
+    <script src="ajax/jquery-1.11.0.min.js"></script>
+    <script src="scripts/pyaari-main.1.0.js"></script>
+    <script src="scripts/pyaari-menu.1.0.js"></script>
+    <script>
+        $(document).ready(function () {
+            PfdMenu._ctor();
+        });
+    </script>
+    
+
+    <script>
+    	$(document).ready(function(){
+	       ReadMore.init();
+    	})
+    </script>
+</body>
+</html>
